@@ -1,1 +1,1 @@
-web: java -jar target/demo-spring-boot-1.0-SNAPSHOT.jar
+web: java -jar -Djava.security.egd=file:/dev/./urandom target/demo-spring-boot-1.0-SNAPSHOT.jar
