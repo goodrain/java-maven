@@ -14,6 +14,6 @@ public class HelloController {
     @RequestMapping("/")
     public String home() {
         helloService.say();
-        return "Hello World! 你好，世界!!!  2018-03-20-----hui'gun回滚测试";
+        return "Hello World! 你好，世界!!!  2018-03-20";
     }
 }
