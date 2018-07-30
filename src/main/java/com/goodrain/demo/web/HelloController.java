@@ -17,6 +17,6 @@ public class HelloController {
     public String home() {
         helloService.say();
         SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        return "Hello World! 你好，世界!!! "+df.format(new Date());
+        return "Hello World! 123，你好，世界!!! "+df.format(new Date());
     }
 }
